@@ -13,6 +13,7 @@ export const conectar = async () => { // isso vai salvar o estado da conexão, c
         printQRInTerminal: true, 
     });
 
+    // --------- Iria fazer uma alteração porque as vezes desconectava sozinho mas acabou funcionando melhor sem essa parte, ou seja pode ignorar. ---------
     /*socket.ev.on('connection.update', async (update) => {
         const {connection, lastDisconnect} = update;
 
